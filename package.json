@@ -1,13 +1,13 @@
 {
   "name": "myapp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "sample angularjs app",
   "main": "app.js",
   "scripts": {
-    "start": "node app/public/js/app.js"
+    "start": "angularjs-sample-app/public/app.js"
   },
   "author": "Gilbert Anderson",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.2"
   }
