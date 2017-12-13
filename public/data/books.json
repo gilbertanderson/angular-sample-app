@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Scott Pilgrim: Vol. 1",
+    "price": 1.99,
+    "pubdate": "2012-08-08",
+    "cover": "images/sp1.jpg",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Scott Pilgrim: Vol. 2",
+    "price": 2.99,
+    "pubdate": "2011-11-07",
+    "cover": "images/sp2.jpg",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Scott Pilgrim: Vol. 3",
+    "price": 3.99,
+    "pubdate": "2013-05-22",
+    "cover": "images/sp3.jpg",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Scott Pilgrim: Vol. 4",
+    "price": 4.99,
+    "pubdate": "2013-11-13",
+    "cover": "images/sp4.jpg",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Scott Pilgrim: Vol. 5",
+    "price": 5.99,
+    "pubdate": "2014-08-13",
+    "cover": "images/sp5.jpg",
+    "likes": 0,
+    "dislikes": 0
+  },
+  {
+    "name": "Scott Pilgrim: Vol. 6",
+    "price": 6.99,
+    "pubdate": "2015-05-05",
+    "cover": "images/sp6.jpg",
+    "likes": 0,
+    "dislikes": 0
+  }
+]

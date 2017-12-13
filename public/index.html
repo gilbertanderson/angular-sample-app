@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app="LibraryApp">
+<head>
+  <meta charset="utf-8"/>
+  <title>AngularJS | Library</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="./styles/main.css" rel="stylesheet"/>
+
+</head>
+<body ng-controller="mainController">
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand" ui-sref="about">AngularJS | Library</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li>
+      <button id="infoButton" class="btn btn-primary" ng-click="toggleLibrary()" ui-sref="footer">Author</button>
+    </li>
+  </ul>
+</nav>
+<div class="header">
+  <div class="container">
+    <h4>Try This Demo Library AngularJS Application!</h4>
+  </div>
+</div>
+
+<div class="main">
+  <div class="container">
+    <div ng-show="isLibraryVisible">
+      <h1>{{ title }}</h1>
+      <h2>{{ promo }}
+        <input ng-model="search.id" type="search"><br><strong class="text-primary">{{ search.id }}</strong>
+      </h2>
+      <div ng-repeat="book in books | filter:search.id" class="col-md-4">
+        <div ng-include="'views/books.html'"></div>
+      </div>
+    </div>
+    <div ng-show="!isLibraryVisible">
+      <div class="jumbotron text-center">
+        <h3>This is a demonstration of some features of AngularJS and UI Router</h3>
+        <div ui-view ng-cloak></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="scripts/controllers/main.js"></script>
+
+</body>
+</html>

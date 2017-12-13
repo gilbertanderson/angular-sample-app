@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "sample angularjs app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/public/js/app.js"
+  },
+  "author": "Gilbert Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

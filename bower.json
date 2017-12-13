@@ -1,0 +1,22 @@
+{
+  "name": "libraryapp",
+  "description": "sample app",
+  "main": "app.js",
+  "authors": [
+    "Gilbert Anderson"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "angular-material": "^1.1.4"
+  }
+}

@@ -1,0 +1,9 @@
+---
+applications:
+- name: ng_test_app
+host: ng-test-app
+memory: 256M
+buildpack: nodejs_buildpack
+command:  npm start
+env:
+    node_env: cloud
